@@ -24,7 +24,7 @@ namespace l001
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            Close();
+            this.Hide();
             GC.Collect();
             Create update = new Create
             {
